@@ -4,13 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>infinite-scroll</title>
     <!-- fav_icon  -->
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <!-- font-awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 
@@ -18,7 +14,17 @@
 
 <body>
 
+    <!-- title -->
+    <h1>unsplash api - infinite scroll</h1>
 
+    <!-- loader   -->
+    <div class="loader" id="loader">
+        <!-- <a> https://loading.io/ -->
+        <img src="loader.svg" alt="loading">
+    </div>
+
+    <!-- image container -->
+    <div class="image-container" id="image-container"></div>
 
 
     <!-- script -->
